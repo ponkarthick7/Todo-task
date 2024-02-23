@@ -1,0 +1,90 @@
+/* App.css */
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: white;
+}
+
+.app-title{
+  color: black;
+}
+
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.input-container {
+  width: calc(33.33% - 10px);
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  
+
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, button {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+
+#Add_Todo {
+  /* Your CSS styles for the element with the ID 'Add_Todo' */
+  /* For example: */
+  background-color: rgb(49, 181, 150);
+
+}
+
+/* styles.css */
+
+.Filter {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  justify-content: space-between;
+}
+
+.Filter .left-content {
+  display: flex;
+  align-items: center;
+}
+
+.Filter .right-content {
+  display: flex;
+  align-items: center;
+}
+
+h4 {
+  color: black;
+  margin-right: 10px;
+}
+
+
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .input-container {
+    width: 100%;
+  }
+}
+
